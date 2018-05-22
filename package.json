@@ -1,12 +1,13 @@
 {
   "name": "fizzyflow-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": ">=8.9.0"
   },
   "description": "",
   "main": "./index.js",
   "scripts": {
+    "test": "grunt test"
   },
   "author": "Jeka Kiselyov <jeka911@gmail.com> (https://github.com/jeka-kiselyov)",
   "license": "AGPL-3.0+",
@@ -17,5 +18,11 @@
   "dependencies": {
     "bignum": "^0.12.5",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-mocha-cli": "^3.0.0",
+    "grunt-node-version": "^1.0.2",
+    "unexpected": "^10.35.0"
   }
 }
