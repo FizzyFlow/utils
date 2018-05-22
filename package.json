@@ -1,0 +1,21 @@
+{
+  "name": "fizzyflow-utils",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+  },
+  "author": "Jeka Kiselyov <jeka911@gmail.com> (https://github.com/jeka-kiselyov)",
+  "license": "AGPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FizzyFlow/utils.git"
+  },
+  "dependencies": {
+    "bignum": "^0.12.5",
+    "lodash": "^4.17.4"
+  }
+}
