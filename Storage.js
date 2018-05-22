@@ -1,4 +1,4 @@
-const HashMap = require('HashMap.js');
+const HashMap = require('./HashMap.js');
 
 class Storage extends HashMap {
     constructor() {
